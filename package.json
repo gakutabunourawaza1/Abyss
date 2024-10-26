@@ -3,7 +3,7 @@
   "version": "6.0.0",
   "description": "",
   "main": "index.mjs",
-  "type": "module"
+  "type": "module",
   "scripts": {
     "start": "node index.mjs"
   },
