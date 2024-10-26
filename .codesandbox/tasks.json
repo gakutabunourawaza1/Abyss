@@ -1,9 +1,16 @@
 {
   "version": "2.0.0",
   "tasks": {
+    "build": {
+      "command": "npm run build",
+      "problemMatcher": [],
+      "label": "build"
+    },
     "start": {
       "command": "npm start",
-      "label": "Start the proxy server"
+      "isBackground": true,
+      "problemMatcher": [],
+      "label": "start"
     }
   }
 }
