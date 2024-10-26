@@ -20,6 +20,10 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+app.get('/', (req, res) => {
+  res.send('Proxy server is working.');
+});
+
 app.use(compression());
 app.use(express.static(__dirname + "/static/"));
 app.use("/class/", express.static(__dirname + "/services/uv/"));
